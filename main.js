@@ -30,18 +30,18 @@ tl.to(
     },
     '+=1'
 )
-tl.to(
-    moji,{
-        opacity: 1,
-        y: 0,
-        duration: 1.8,
-        stagger: {
-            each:0.1,
-            from:'random'
-        }
-    },
-    '-=0.4'
-)
+// tl.to(
+//     moji,{
+//         opacity: 1,
+//         y: 0,
+//         duration: 1.8,
+//         stagger: {
+//             each:0.1,
+//             from:'random'
+//         }
+//     },
+//     '-=0.4'
+// )
 
 
 
