@@ -14,8 +14,7 @@ const lWrapper = document.querySelector(".l-wrapper");
 const jsText = '.js-mv_title-item span'; // メインビジュアルのタイトル
 const tl = gsap.timeline();
 
-gsap.from(".moji", {rotationY: 36, opacity:0, duration: .8, yPercent: -100, stagger: 0.1, ease:"Expo.easeOut"});
-
+// gsap.from(".moji", {rotationY: 36, opacity:0, duration: .8, yPercent: -100, stagger: 0.1, ease:"Expo.easeOut"});
 
 tl.to(
     jsLoaderBg, {
