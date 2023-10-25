@@ -19,16 +19,16 @@ const tl = gsap.timeline();
 tl.to(
     jsLoaderBg, {
         y: '100%',
+        duration: 1
     },
     '+=1'
 )
 tl.to(
     lWrapper,{
-        duration: 1,
+        duration: 0.8,
         autoAlpha: 0,
         y: '100%',
-    },
-    '+=1'
+    }
 )
 // tl.to(
 //     moji,{
