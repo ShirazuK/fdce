@@ -36,7 +36,7 @@ body{
 }
 
 .l-wrapper .logo img{
-    height:180px;
+    height:250px;
 }
 
 .main{
@@ -64,7 +64,7 @@ body{
 
 .main .video{
     width:100vw;
-    height:60vh;
+    height:100vh;
     z-index:-1;
     margin: 0 calc(50% - 50vw);
     overflow: auto;
